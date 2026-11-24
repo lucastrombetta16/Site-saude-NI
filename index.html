@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transtornos Mentais</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰ Menu</button>
+
+    <nav class="main-nav" id="menu">
+      <a href="index.html">Início</a>
+
+      <div class="dropdown">
+        <button class="dropdown-button" aria-expanded="false">
+          Transtornos
+          <span class="arrow">▼</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="transtornos.html">Ver todos os transtornos</a>
+          <a href="transtornos.html#tag">TAG</a>
+          <a href="transtornos.html#ansiedade-social">Ansiedade Social</a>
+          <a href="transtornos.html#depressao">Depressão</a>
+          <a href="transtornos.html#toc">TOC</a>
+          <a href="transtornos.html#bipolaridade">Transtorno Bipolar</a>
+          <a href="transtornos.html#esquizofrenia">Esquizofrenia</a>
+          <a href="transtornos.html#tdah">TDAH</a>
+          <a href="transtornos.html#tea">TEA</a>
+          <a href="transtornos.html#estresse">Estresse Pós-Traumático</a>
+          <a href="transtornos.html#panico">Transtorno de Pânico</a>
+          <a href="transtornos.html#borderline">Transtorno Borderline</a>
+          <a href="transtornos.html#tdi">TDI</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-button" aria-expanded="false">
+          Sobre
+          <span class="arrow">▼</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="sobre.html#sobrenos">Sobre nós</a>
+          <a href="sobre.html#sobreifa">Sobre o IFA</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <h1>Transtornos<br>Mentais</h1>
+      </div>
+
+      <img src="./img/brain.png" alt="" aria-hidden="true" class="brain">
+      <img src="./img/Blog-blog.gif" alt="Ilustração realista de um cérebro humano" class="brain">
+    </section>
+
+    <section class="section">
+      <h2>O Que São?</h2>
+
+      <div class="about-grid">
+        <div class="intro">
+          <p>
+            Transtornos mentais são condições que podem afetar nossos pensamentos,
+            emoções e comportamentos, influenciando a forma como vivemos e nos relacionamos.
+          </p>
+
+          <div class="highlight">
+            Informação também é uma forma de cuidado.
+          </div>
+
+          <p class="project">
+            Este site foi desenvolvido pela turma <strong>301</strong> a partir de uma
+            pesquisa sobre saúde mental, com o objetivo de informar, conscientizar e
+            combater preconceitos.
+          </p>
+        </div>
+
+        <img class="illustration" src="img/apoio.svg" alt="Ilustração de duas pessoas conversando, com um coração">
+      </div>
+    </section>
+
+    <section class="topics" id="transtornos">
+      <div class="topics-inner">
+        <h2>Conheça alguns transtornos</h2>
+
+        <div class="cards">
+          <article class="card" id="tag">
+            <img class="card-icon" src="img/tag.svg" alt="">
+            <h3>TAG</h3>
+            <p>Entenda o que é a Ansiedade Generalizada, seus principais sintomas e como pode ser tratada.</p>
+            <a class="card-link" href="transtornos.html#tag">Saiba mais →</a>
+          </article>
+
+          <article class="card" id="depressao">
+            <img class="card-icon" src="img/depressao.svg" alt="">
+            <h3>Depressão</h3>
+            <p>Conheça suas características, impactos no cotidiano e formas de cuidado.</p>
+            <a class="card-link" href="transtornos.html#depressao">Saiba mais →</a>
+          </article>
+
+          <article class="card" id="toc">
+            <img class="card-icon" src="img/toc.svg" alt="">
+            <h3>TOC</h3>
+            <p>Saiba mais sobre pensamentos obsessivos e comportamentos compulsivos.</p>
+            <a class="card-link" href="transtornos.html#toc">Saiba mais →</a>
+          </article>
+        </div>
+
+        <div class="see-all">
+          <a class="button" href="transtornos.html">Ver todos os transtornos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="help" id="ajuda">
+      <div class="help-inner">
+        <img class="help-icon" src="img/ajuda.svg" alt="">
+        <div>
+          <h2>Precisa conversar com alguém?</h2>
+          <p>
+            Se você está passando por sofrimento emocional, procure ajuda. O <strong>CVV</strong>
+            atende 24 horas, de graça, pelo telefone <strong>188</strong> e pelo site cvv.org.br.
+            Em caso de emergência, ligue para o <strong>SAMU (192)</strong>. Você também pode
+            procurar a UBS ou o CAPS da sua região.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Projeto escolar — Turma 301
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

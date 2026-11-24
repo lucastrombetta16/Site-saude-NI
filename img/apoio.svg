@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Ilustração de duas pessoas conversando">
+<rect width="320" height="240" rx="24" fill="#dceaf6"/>
+<g stroke="#1e3a5f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M52 52 H168 a16 16 0 0 1 16 16 V112 a16 16 0 0 1 -16 16 H104 L76 152 V128 H52 a16 16 0 0 1 -16 -16 V68 a16 16 0 0 1 16 -16 Z" fill="#fff"/>
+<path d="M268 100 H196 a16 16 0 0 0 -16 16 V152 a16 16 0 0 0 16 16 H216 V192 L244 168 H268 a16 16 0 0 0 16 -16 V116 a16 16 0 0 0 -16 -16 Z" fill="#7aa7d6" fill-opacity=".55"/>
+<path d="M84 80 H140 M84 98 H120" fill="none"/>
+<path d="M222 128 H262 M222 144 H246" fill="none"/>
+</g>
+<path d="M160 214 C140 200 142 184 152 184 C157 184 159 187 160 189 C161 187 163 184 168 184 C178 184 180 200 160 214 Z" fill="#e57373" stroke="#1e3a5f" stroke-width="2.5" stroke-linejoin="round" transform="translate(0,-6)"/>
+</svg>
